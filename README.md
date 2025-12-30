@@ -1,4 +1,4 @@
-# Circuit Simulation Journey: A Tale of Tools, Ethics, and One Hero Named Belkacem
+# Circuit Simulation Journey: A Tale of Tools, Ethics 
 
 **By:** Hassani Fateh & Kahlrras Raid  
 **For:** Mr Sahraoui Walid & Mr BOUCHACI Islem  
