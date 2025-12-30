@@ -419,6 +419,9 @@ So I (Fateh) said the forbidden words:
 
 For about 2 seconds, this sounded like a genius idea.
 
+![Message by Fateh](images/rps.png)
+
+
 Then reality hit . Cybersecurity brain activated.
 
 **Raid said nope!**
