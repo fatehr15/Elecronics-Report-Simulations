@@ -14,7 +14,7 @@ Before building any circuit in real life, we needed to simulate everything. Simu
 - Find mistakes early
 - Make sure the design works as expected
 
-Simple, right? Wrong. 😅
+Simple, right? Wrong !
 
 This report is the story of how we tried to simulate three analog/digital circuits and ended up learning more about software tools, ethics, and teamwork than we ever expected.
 
