@@ -33,7 +33,7 @@ Before we talk about the chaos, let's explain what we were actually trying to bu
 
 
 
-**What it is **
+**What it is**
 
 A tiny sample-and-hold / charge-transfer block. We connect the input to a capacitor with a transmission gate (analog switch) to sample the voltage, then we isolate the cap and connect its other plate to the output so charge moves and the output updates. There's a resistor to ground that slowly bleeds the held voltage.
 
@@ -119,7 +119,7 @@ A non-inverting amplifier that blocks DC on the input (C1) and has a small low-p
 
 ### Circuit 3: Counter + DAC + Comparator (Ramp/Count ADC)
 
-![Circuit3](images/Circui3".png)
+![Circuit3](images/Circui3.png)
 
 
 
