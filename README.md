@@ -227,7 +227,7 @@ This made progress slow and frustrating.
 
 ---
 
-### Act 3: DesignSpark PCB — Great Design, Terrible Simulation
+### Act 3: DesignSpark PCB ~ Great Design, Terrible Simulation
 
 **Why DesignSpark PCB?**
 
