@@ -557,9 +557,9 @@ These are practical tips we learned the hard way:
 
 This step taught us that engineering is not only about knowing formulas:
 
- **Tools matter** — The right tool can save hours of work  
- **Time matters** — Learning curve must fit project deadlines  
- **Ethics matter** — Taking shortcuts can cost you more later  
+ **Tools matter** : The right tool can save hours of work  
+ **Time matters** : Learning curve must fit project deadlines  
+ **Ethics matter** : Taking shortcuts can cost you more later  
  **Learning how to adapt matters** — A working solution beats a perfect one that never works  
 
 ### The struggle itself improved our technical skills
