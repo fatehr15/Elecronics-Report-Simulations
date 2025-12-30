@@ -119,7 +119,7 @@ A non-inverting amplifier that blocks DC on the input (C1) and has a small low-p
 
 ### Circuit 3: Counter + DAC + Comparator (Ramp/Count ADC)
 
-![Circuit3](images/Circui3.png)
+![Circuit3](images/Circuit3.png)
 
 
 
@@ -204,6 +204,9 @@ LTspice is a free and very powerful circuit simulator. It's used by many enginee
 
 Perfect, right?
 
+
+
+
 **First experience: Confusion**
 
 At the beginning, LTspice was *hard*:
@@ -223,7 +226,12 @@ We spent about one hour learning:
 - The importance of grounding
 - How to run simulations and read results
 
+
+![LTspice](images/LTspice1.png)
+
 This helped us understand the basics, but it was only the beginning.
+
+
 
 **Simulation problems: The nightmare**
 
@@ -233,6 +241,11 @@ When we tried to simulate our *real* circuits, we faced many errors:
 - Op-amps not powered correctly
 - Switches and digital parts needing special models
 - Error messages that did not clearly explain the problem
+
+
+![LTspice](images/LTspice3.png)
+
+
 
 Instead of analyzing the circuit behavior, we spent most of the time debugging the simulator itself.
 
@@ -248,6 +261,8 @@ This made progress slow and frustrating.
 
 After LTspice, we tried DesignSpark PCB, a free tool used for schematic design and PCB creation.
 
+![DesignSpark](images/DesignSpark1.png)
+
 Why we chose it:
 - Free and legal
 - Easier to use than LTspice
@@ -260,6 +275,9 @@ Why we chose it:
 - Better understand connections
 - Prepare clean schematics for simulation or future work
 
+![DesignSpark](images/DesignSpark2.png)
+![DesignSpark](images/DesignSpark5.png)
+
 **Design experience: Great!**
 
 DesignSpark PCB was very easy and practical to use:
@@ -269,6 +287,8 @@ DesignSpark PCB was very easy and practical to use:
 - Schematics looked professional and readable
 
 From a design perspective, DesignSpark PCB worked very well.
+
+![DesignSpark](images/DesignSpark6.png)
 
 **The simulation nightmare: Not great.**
 
@@ -280,11 +300,16 @@ Simulation in DesignSpark PCB is not straightforward:
 - Error messages are unclear
 - Mixed analog and digital circuits are hard to simulate
 
+![DesignSpark](images/DesignSpark7.png)
+
 **We spent most of the night trying to make simulations work:**
 - Changing settings
 - Testing small examples
 - Searching online for solutions
 - Rebuilding circuits multiple times
+
+![DesignSpark](images/DesignSpark8.png)
+![DesignSpark](images/DesignSpark9.png)
 
 Nothing worked as expected. Instead of analyzing voltages and signals, we were stuck dealing with software issues.
 
@@ -306,11 +331,16 @@ That's when we found:
 
 **Proteus Free Trial**
 
+![Proteus Free Trial](images/Prodemo1.png)
+
 Proteus provides a limited free trial that is:
 - Legal ✅
 - Safe ✅
 - No cracked software involved ✅
 - Suitable for our simulation needs ✅
+
+
+![Proteus Free Trial](images/Prodemo3.png)
 
 This solution allowed us to continue the project without compromising our values or wasting more time.
 
@@ -322,12 +352,16 @@ This solution allowed us to continue the project without compromising our values
 
 The difference was immediate.
 
+![Proteus Free Trial](images/Prodemo5.png)
+
 Within 15 minutes, we were able to:
 - Draw the first circuit ✅
 - Place all components correctly ✅
 - Set component values ✅
 - Run the simulation ✅
 - Observe waveforms and behavior ✅
+
+![Proteus Free Trial](images/Prodemo7.png)
 
 Compared to the *hours* spent struggling with other tools, Proteus felt fast, smooth, and intuitive.
 
@@ -341,14 +375,21 @@ Then came the surprise.
 
 When we tried to save our work, Proteus displayed a message from ProDemo mode:
 
+![Proteus Free Trial](images/Prodemo8.png)
+
 > **Saving project files is not allowed in the demo version.**
+
+
+![Proteus Free Trial](images/Prodemo4.png)
+
+(It was in the downloading page ~ حنا لي أغبياء)
 
 This meant:
 - We could simulate the circuit 
 - We could see results 
 - But we could not save the design files 
 
-In simple words: The simulation worked… but nothing could be stored.
+In simple words: The simulation worked … but nothing could be stored.
 
 **Impact on the project**
 
@@ -368,7 +409,7 @@ This approach allowed us to continue working within the limits of the demo versi
 
 ---
 
-### The Final (Final) Solution 😭
+### The Final (Final) Solution :
 
 At this point, we were tired. Tools were fighting us. Simulators were winning. Hope was… low.
 
