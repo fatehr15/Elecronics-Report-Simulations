@@ -20,19 +20,18 @@ When triggered by an input pulse, the circuit leaves its stable state for a fixe
 
 The circuit consists of the following primary elements:
 
-* 
+
 **Two logic gates:** Represented by the yellow blocks in the schematic.
 
 
-* 
+
 **One capacitor (C):** Used for timing.
 
 
-* 
+
 **One resistor (R):** Used for timing.
 
 
-* 
 **Common ground reference**.
 
 
@@ -41,19 +40,19 @@ The circuit consists of the following primary elements:
 
 The simulation tracks four specific nodes:
 
-* 
+
 ****: Input logic signal to the first logic gate.
 
 
-* 
+
 ****: Output of the first logic gate and input to the capacitor.
 
 
-* 
+
 ****: Output of the second logic gate.
 
 
-* 
+
 ****: Output voltage across the RC network.
 
 
@@ -69,7 +68,7 @@ The simulation was performed using **Falstad**, an online simulator that allows 
 * The circuit was constructed by placing logic gates, resistors, capacitors, and voltage sources according to the schematic.
 
 
-* 
+  
 **Digital logic gates** generate binary signals (HIGH/LOW), while **analog components** (R and C) determine the time-dependent behavior.
 
 
@@ -84,7 +83,7 @@ The duration of the pulse is governed by the resistor and capacitor:
 * A **larger resistance** increases the pulse duration.
 
 
-* 
+ 
 **Smaller values** result in faster oscillations or shorter pulses.
 
 
