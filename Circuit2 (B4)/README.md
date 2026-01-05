@@ -95,8 +95,11 @@ The duration of the pulse is governed by the resistor and capacitor:
 The simulation provides visual data for the behavior of each node:
 
 ![](B41.png)
+
 ![](B42.png)
+
 ![](B43.png)
+
 ![](B44.png)
 
 ---
