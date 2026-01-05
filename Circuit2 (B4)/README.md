@@ -6,11 +6,8 @@ The objective of this work is to simulate and analyze the behavior of the electr
 
 A monostable multivibrator is characterized by having:
 
-* 
 **One stable state**.
 
-
-* 
 **One unstable (temporary) state**.
 
 
