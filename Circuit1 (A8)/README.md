@@ -56,19 +56,7 @@ The circuit was simulated in Proteus using an AC Sweep analysis. Figure 2 shows 
 ![](A8.png)
 
 
-## 5. Verification Table
-
-The following table compares the theoretical calculations with the values observed in the simulation.
-
-**Table 1:** Theoretical vs. Simulated Performance Comparison
-
-| Parameter | Theoretical Calculation | Simulated Result |
-|-----------|------------------------|------------------|
-| Lower Cutoff (f<sub>L</sub>) | 63.66 Hz | [Enter Val] |
-| Upper Cutoff (f<sub>H</sub>) | 15.92 kHz | [Enter Val] |
-| Peak Voltage Gain | 20.83 dB | [Enter Val] |
-
-
+## 5. Verification 
 ![](Screenshot2026-01-05113200.png)
 
 
