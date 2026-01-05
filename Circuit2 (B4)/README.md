@@ -100,7 +100,7 @@ The simulation provides visual data for the behavior of each node:
 
 ![](B43.png)
 
-![](B44.jng)
+![](B44.png)
 
 ---
 
