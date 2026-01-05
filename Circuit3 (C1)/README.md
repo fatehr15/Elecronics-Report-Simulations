@@ -124,17 +124,17 @@ Figure C.1 shows a composite timing diagram generated using Falstad, depicting t
 
 - **A:** Maintains a constant analog input voltage
 
-![]('./Screenshot2026-01-05104609.png')
+![]('Screenshot2026-01-05104609.png')
 - **B:** Output of the comparator, responsible for controlling the conversion process
 
-![]('/Screenshot2026-01-05104546.png')
+![]('Screenshot2026-01-05104546.png')
 - **C:** Clock signal passed through gating logic
 
-![]('./Screenshot2026-01-05104658.png')
+![]('Screenshot2026-01-05104658.png')
 - **D:** Control signal applied to the AND gate
 
-![]('./Screenshot2026-01-05104645.png')
+![]('Screenshot2026-01-05104645.png')
 - **E:** Staircase output voltage from the Digital-to-Analog Converter (DAC)
 
-![]('./Screenshot2026-01-05104558.png')
+![]('Screenshot2026-01-05104558.png')
 
