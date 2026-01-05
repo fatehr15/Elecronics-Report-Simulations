@@ -1,80 +1,112 @@
-# Design and Simulation of an Active Band-Pass Filter
+# Rapport: Monostable Multivibrator Using NAND
+
+## 1. Objective
+
+The objective of this work is to simulate and analyze the behavior of the electronic circuit shown in the provided schematic. The studied circuit operates as a **monostable multivibrator**, also known as a **one-shot circuit**.
+
+A monostable multivibrator is characterized by having:
+
+* 
+**One stable state**.
 
 
-## Abstract
+* 
+**One unstable (temporary) state**.
 
-This report details the design and simulation of an Active Second-Order Band-Pass Filter using an LM741 Operational Amplifier. The circuit combines high-pass and low-pass filtering stages with a non-inverting amplifier to achieve a specific frequency response. Theoretical calculations for cutoff frequencies and gain were verified using Proteus simulation software.
 
-## 1. Introduction
 
-A Band-Pass Filter (BPF) is a circuit designed to pass signals within a specific frequency range while attenuating frequencies outside that range. By using an active component like the LM741 Op-Amp, the circuit can provide voltage gain and high input impedance, which prevents signal degradation.
+When triggered by an input pulse, the circuit leaves its stable state for a fixed duration and then automatically returns to the stable state.
 
-## 2. Circuit Design
+---
 
-The circuit consists of an input high-pass stage, an amplification stage, and an output low-pass stage. Figure 1 shows the complete schematic as designed in Proteus.
+## 2. Main Components
 
-**Figure 1:** Active Band-Pass Filter Schematic Diagram (Proteus).
+The circuit consists of the following primary elements:
 
-## 3. Theoretical Calculations
+* 
+**Two logic gates:** Represented by the yellow blocks in the schematic.
 
-The performance of the filter is governed by the values of the resistors and capacitors selected.
 
-### 3.1 Frequency Parameters
+* 
+**One capacitor (C):** Used for timing.
 
-The lower and upper cutoff frequencies (f<sub>L</sub> and f<sub>H</sub>) are calculated at the −3dB points:
 
-**Lower Cutoff (f<sub>L</sub>):**
+* 
+**One resistor (R):** Used for timing.
 
-```
-f_L = 1 / (2πR₁C₁) = 1 / (2π(50kΩ)(50nF)) ≈ 63.66 Hz     (1)
-```
 
-**Upper Cutoff (f<sub>H</sub>):**
+* 
+**Common ground reference**.
 
-```
-f_H = 1 / (2πR₂C₂) = 1 / (2π(100Ω)(100nF)) ≈ 15.92 kHz   (2)
-```
 
-### 3.2 Voltage Gain
 
-The mid-band gain (A<sub>v</sub>) is set by the ratio of R₄ to R₃:
+### Voltage Observation Points
 
-```
-A_v = 1 + (R₄/R₃) = 1 + (10kΩ/1kΩ) = 11                  (3)
-```
+The simulation tracks four specific nodes:
 
-In decibels, the gain is:
+* 
+****: Input logic signal to the first logic gate.
 
-```
-Gain_dB = 20 log₁₀(11) ≈ 20.83 dB                         (4)
-```
 
-## 4. Simulation Results
+* 
+****: Output of the first logic gate and input to the capacitor.
 
-The circuit was simulated in Proteus using an AC Sweep analysis. Figure 2 shows the frequency response of the system.
 
-**Figure 2:** Frequency Response (Bode Plot) showing the mid-band gain and roll-off.
+* 
+****: Output of the second logic gate.
 
-## 5. Verification Table
 
-The following table compares the theoretical calculations with the values observed in the simulation.
+* 
+****: Output voltage across the RC network.
 
-**Table 1:** Theoretical vs. Simulated Performance Comparison
 
-| Parameter | Theoretical Calculation | Simulated Result |
-|-----------|------------------------|------------------|
-| Lower Cutoff (f<sub>L</sub>) | 63.66 Hz | [Enter Val] |
-| Upper Cutoff (f<sub>H</sub>) | 15.92 kHz | [Enter Val] |
-| Peak Voltage Gain | 20.83 dB | [Enter Val] |
 
+---
+
+## 3. Circuit Operation and Simulation
+
+The simulation was performed using **Falstad**, an online simulator that allows for real-time visualization of voltages and currents.
+
+### Simulation Setup
+
+* The circuit was constructed by placing logic gates, resistors, capacitors, and voltage sources according to the schematic.
+
+
+* 
+**Digital logic gates** generate binary signals (HIGH/LOW), while **analog components** (R and C) determine the time-dependent behavior.
+
+
+* The input is driven by a pulse-generation circuit that produces a periodic digital signal without an external clock source.
+
+
+
+### Role of the RC Network
+
+The duration of the pulse is governed by the resistor and capacitor:
+
+* A **larger resistance** increases the pulse duration.
+
+
+* 
+**Smaller values** result in faster oscillations or shorter pulses.
+
+
+
+---
+
+## 4. Observed Outputs
+
+The simulation provides visual data for the behavior of each node:
 
 ![](B41.png)
 ![](B42.png)
 ![](B43.png)
 ![](B44.png)
 
+---
 
+## 5. Conclusion
 
-## 6. Conclusion
+The simulation confirms that the circuit behaves as a **monostable multivibrator**. Upon receiving a trigger, the output generates a pulse of a fixed duration—defined by the RC network—and then returns to its stable state. This observed behavior matches the theoretical operation of monostable circuits.
 
-The simulation successfully demonstrated the characteristics of an active band-pass filter. The output signal was amplified by a factor of 11 in the passband, while frequencies below 63 Hz and above 15.9 kHz were attenuated. The results prove that the circuit operates according to the theoretical design.
+Would you like me to help you calculate the specific pulse duration based on the  and  values shown in your simulation?
