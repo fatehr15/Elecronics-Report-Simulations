@@ -106,4 +106,4 @@ The simulation provides visual data for the behavior of each node:
 
 ## 5. Conclusion
 
-The simulation confirms that the circuit behaves as a **monostable multivibrator**. Upon receiving a trigger, the output generates a pulse of a fixed duration—defined by the RC network and then returns to its stable state. This observed behavior matches the theoretical operation of monostable circuits.
+The simulation confirms that the circuit behaves as a **monostable multivibrator**. Upon receiving a trigger, the output generates a pulse of a fixed duration defined by the RC network and then returns to its stable state. This observed behavior matches the theoretical operation of monostable circuits.
