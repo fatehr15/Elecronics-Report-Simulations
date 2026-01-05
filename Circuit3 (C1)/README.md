@@ -118,23 +118,25 @@ The counter advances its binary count on every rising edge of the clock signal a
 
 ### Simulation Waveforms
 
+![](Screenshot2026-01-05104526.png)
+
 Figure C.1 shows a composite timing diagram generated using Falstad, depicting the voltage variations at all key nodes (A, B, C, D, and E) throughout the conversion process. A simplified clock waveform was deliberately employed in this simulation to offer a clear and comprehensive visualization of signal interactions and timing relationships during operation.
 
 **Signal Descriptions:**
 
 - **A:** Maintains a constant analog input voltage
 
-![]('Screenshot2026-01-05104609.png')
+![](Screenshot2026-01-05104609.png)
 - **B:** Output of the comparator, responsible for controlling the conversion process
 
-![]('Screenshot2026-01-05104546.png')
+![](Screenshot2026-01-05104546.png)
 - **C:** Clock signal passed through gating logic
 
-![]('Screenshot2026-01-05104658.png')
+![](Screenshot2026-01-05104658.png)
 - **D:** Control signal applied to the AND gate
 
-![]('Screenshot2026-01-05104645.png')
+![](Screenshot2026-01-05104645.png)
 - **E:** Staircase output voltage from the Digital-to-Analog Converter (DAC)
 
-![]('Screenshot2026-01-05104558.png')
+![](Screenshot2026-01-05104558.png)
 
