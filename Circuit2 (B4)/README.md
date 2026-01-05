@@ -21,18 +21,18 @@ When triggered by an input pulse, the circuit leaves its stable state for a fixe
 The circuit consists of the following primary elements:
 
 
-**Two logic gates:** Represented by the yellow blocks in the schematic.
+- **Two logic gates:** Represented by the yellow blocks in the schematic.
 
 
 
-**One capacitor (C):** Used for timing.
+- **One capacitor (C):** Used for timing.
 
 
 
-**One resistor (R):** Used for timing.
+- **One resistor (R):** Used for timing.
 
 
-**Common ground reference**.
+- **Common ground reference**.
 
 
 
@@ -41,19 +41,19 @@ The circuit consists of the following primary elements:
 The simulation tracks four specific nodes:
 
 
-****: Input logic signal to the first logic gate.
+- Input logic signal to the first logic gate.
 
 
 
-****: Output of the first logic gate and input to the capacitor.
+- Output of the first logic gate and input to the capacitor.
 
 
 
-****: Output of the second logic gate.
+- Output of the second logic gate.
 
 
 
-****: Output voltage across the RC network.
+- Output voltage across the RC network.
 
 
 
@@ -65,14 +65,14 @@ The simulation was performed using **Falstad**, an online simulator that allows 
 
 ### Simulation Setup
 
-* The circuit was constructed by placing logic gates, resistors, capacitors, and voltage sources according to the schematic.
+- The circuit was constructed by placing logic gates, resistors, capacitors, and voltage sources according to the schematic.
 
 
   
-**Digital logic gates** generate binary signals (HIGH/LOW), while **analog components** (R and C) determine the time-dependent behavior.
+- **Digital logic gates** generate binary signals (HIGH/LOW), while **analog components** (R and C) determine the time-dependent behavior.
 
 
-* The input is driven by a pulse-generation circuit that produces a periodic digital signal without an external clock source.
+- The input is driven by a pulse-generation circuit that produces a periodic digital signal without an external clock source.
 
 
 
@@ -80,11 +80,11 @@ The simulation was performed using **Falstad**, an online simulator that allows 
 
 The duration of the pulse is governed by the resistor and capacitor:
 
-* A **larger resistance** increases the pulse duration.
+- A **larger resistance** increases the pulse duration.
 
 
  
-**Smaller values** result in faster oscillations or shorter pulses.
+- **Smaller values** result in faster oscillations or shorter pulses.
 
 
 
@@ -103,6 +103,4 @@ The simulation provides visual data for the behavior of each node:
 
 ## 5. Conclusion
 
-The simulation confirms that the circuit behaves as a **monostable multivibrator**. Upon receiving a trigger, the output generates a pulse of a fixed duration—defined by the RC network—and then returns to its stable state. This observed behavior matches the theoretical operation of monostable circuits.
-
-Would you like me to help you calculate the specific pulse duration based on the  and  values shown in your simulation?
+The simulation confirms that the circuit behaves as a **monostable multivibrator**. Upon receiving a trigger, the output generates a pulse of a fixed duration—defined by the RC network and then returns to its stable state. This observed behavior matches the theoretical operation of monostable circuits.
