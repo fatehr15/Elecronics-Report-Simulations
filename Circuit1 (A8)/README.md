@@ -55,7 +55,6 @@ The circuit was simulated in Proteus using an AC Sweep analysis. Figure 2 shows 
 
 ![](A8.png)
 
-**Figure 2:** Frequency Response (Bode Plot) showing the mid-band gain and roll-off.
 
 ## 5. Verification Table
 
