@@ -620,5 +620,3 @@ Mr Sahraoui Walid & Mr BOUCHACI Islem
 Belkacem (the legend) 🔥
 
 ---
-
-*"In the end, we learned that the real circuit was the friends we made along the way… and also actual circuits. We learned actual circuits too."* 😅
