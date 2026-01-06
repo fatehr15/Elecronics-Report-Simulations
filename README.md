@@ -53,7 +53,7 @@ A tiny sample-and-hold / charge-transfer block. We connect the input to a capaci
 **Shapes & events to probe**
 
 - Probe input V₁: whatever test signal we apply (DC step, sine, whatever)
-- Probe left-plate: track charging during φ1 — a quick RC charge curve if switch has R_on
+- Probe left-plate: track charging during φ1 , a quick RC charge curve if switch has R_on
 - Probe output V₄: step when transfer happens; then exponential decay until next sample
 - If you zoom around the switching instant you may see tiny spikes from charge injection or clock feedthrough
 
@@ -105,7 +105,7 @@ A non-inverting amplifier that blocks DC on the input (C1) and has a small low-p
 **Waveforms to plot**
 
 - Vin (before C1) and V+ (after C1) to see coupling effect
-- Vout (op-amp output) — steady state sine and step response
+- Vout (op-amp output) steady state sine and step response
 - For large amplitude fast waveforms, check slew limiting and distortion
 
 **Simulator gotchas**
@@ -149,11 +149,11 @@ A simple counting ADC: we hold the analog input, then count up a binary counter 
 
 **Waveforms to probe**
 
-- Analog sample voltage (held) — flat during conversion
-- DAC analog output — staircase rising step by step
-- Comparator input pins — crossing event visible
-- Comparator output — digital high/low that gates the clock
-- Counter outputs — binary waveform; you can display decimal too
+- Analog sample voltage (held) : flat during conversion
+- DAC analog output : staircase rising step by step
+- Comparator input pins : crossing event visible
+- Comparator output : digital high/low that gates the clock
+- Counter outputs : binary waveform; you can display decimal too
 
 **Simulation pitfalls we expected**
 
